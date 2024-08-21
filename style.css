@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+.container{
+    margin: 100px 0;
+    background-color: white;
+    
+    max-width: 800px;
+    padding: 50px;
+    border-radius: 25px;
+}
+.container img{
+    width: 100%;
+    border-radius: 15px;
+}
+.mainHeading{
+    font-size: 2.5em;
+    font-weight: 500;
+    color: hsl(24, 5%, 18%);
+}
+.heading{
+    font-family: "Young Serif", serif; 
+    margin-top: 50px;
+    font-weight: 500;
+}
+.container p{
+    margin-top: 20px;
+}
+.preparationTime{
+    padding: 50px 50px 0;
+    color: hsl(332, 51%, 32%);
+}
+span{
+    color: hsl(30, 10%, 34%);
+    font-weight: bold;
+}
+.preparationTime ul li{
+    margin: 10px 0;
+}
+.preparationTime ul li span{
+    font-weight: bold;
+}
+.ingredients{
+    margin-top: 50px;
+    color: hsl(14, 45%, 36%);
+}
+ul{
+    margin: 30px 10px;
+}
+ul li{
+    list-style-position: inside;
+    margin: 10px 0;
+}
+.Instructions{
+    margin: 20px 0;
+    color: hsl(14, 45%, 36%);
+}
+ol{
+    margin: 30px 10px;
+}
+ol li{
+    list-style-position: inside;
+    margin: 10px 0;
+}
+ol li span{
+    font-weight: bold;
+}
+.nutrition{
+    margin-top: 20px;
+    color: hsl(14, 45%, 36%);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table tr{
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.199);
+}
+table tr td{
+    width: 50%;
+    padding: 10px 30px ;
+   
+}
+#first{
+    border: none;
+}
+hr{
+    border-top: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+@media (max-width:800px){
+    .container{
+        margin:0;
+        border-radius: 0;
+    }
+}
